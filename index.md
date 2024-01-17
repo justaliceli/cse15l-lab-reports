@@ -7,7 +7,7 @@ We were in the lecture1 directory. Running the `cd` command with no arguments si
 There is no output. The output is not an error.
 
 ## `cd` command with a path to a directory as an argument
-![Image](cd lecture1.png)
+![Image](cd_lecture1.png)
 the working directory is now lecture1;
 We were in the home page. Running the `cd` command with the argument lecture1 means that we now switch to the directory lecture1;
 There is no output, the only thing different is that we now work with the lecture1 directory. Therefore the output is not an error.
