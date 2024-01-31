@@ -33,14 +33,36 @@ class ChatServer {
         Server.start(port, new Handler());
     }
 }
+```
+
+## `/add-message` screenshot
+![Image](add1.png)
+1. When running the command java ChatServer 3000 and send the request /add-message?s=hiii&user=alice, the following methods are called:
+main(String[] args) in the ChatServer class.  
+Server.start(int port, URLHandler handler) method in Server class.
+handleRequest(URI url) in the Handler class.  
+
+2. In the main method, the args array contains one element: args[0] which is the string "3000". The port variable in the ChatServer class would be set to the integer 3000 after parsing the args[0].     
+In the Server.start method, the port argument would be 3000, and the handler argument would be a new instance of Handler.     
+In the handleRequest method of the Handler class, the url parameter would be a URI object representing the request URI: /add-message?s=hiii&user=alice.
+The messages field in the Handler class starts as an empty String.
+
+3. The messages field in the Handler class would change from an empty String to "alice: hiii\n". This change occurs because the handleRequest method appends the user and the message to the messages field, along with a newline character.
+   
+![Image](add2.png)
+1. handleRequest(URI url) method in the Handler class.  
+2. The url parameter to handleRequest(URI url) method would be a URI object representing the modified request URI: /add-message?s=yeahpa&user=alice.
+The messages field of the Handler class would be "alice: hiii\n" from the previous state before this request.
+3. The messages field in the Handler class would change by appending the new message. After the method call with the new request, the field messages would have a new value, which is the previous messages plus the new one, resulting in "alice: hiii\nalice: yeahpa\n"
 
 
-## `cat` command with a path to a file as an argument
-![Image](cathello.png)
-The working directory is still lecture1;
-It displays the contents of files. Therefore it displays `Hello.class` in details as output;
-The output is not an error.
+## Part2
 
+
+
+
+
+   
 
 
 
