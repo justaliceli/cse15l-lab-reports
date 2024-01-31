@@ -57,8 +57,14 @@ The messages field of the Handler class would be "alice: hiii\n" from the previo
 
 
 ## Part2
+![Image](ls1.png)
+![Image](ls2.png)
+![Image](ls3.png)
 
 
+
+## Part3
+I learned how to set up SSH keys for easy access and the simplified working process behind them. I also learned how I can navigate myself to the location of these keys.
 
 
 
