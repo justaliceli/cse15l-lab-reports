@@ -1,5 +1,6 @@
 Hihihihih low battery warning with my computer!
-`
+
+```java
 import java.io.IOException;
 import java.net.URI;
 
@@ -15,7 +16,8 @@ class Handler implements URLHandler {
             String message = user + ": " + sentence + "\n";
             messages += message;
             return messages;
-        }return "404 Not Found!";
+        }
+        return "404 Not Found!";
     }
 }
 
@@ -31,7 +33,7 @@ class ChatServer {
         Server.start(port, new Handler());
     }
 }
-`
+
 
 ## `cat` command with a path to a file as an argument
 ![Image](cathello.png)
