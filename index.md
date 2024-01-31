@@ -1,6 +1,6 @@
 Hihihihih low battery warning with my computer!
-
-`import java.io.IOException;
+`
+import java.io.IOException;
 import java.net.URI;
 
 class Handler implements URLHandler {
@@ -30,8 +30,8 @@ class ChatServer {
 
         Server.start(port, new Handler());
     }
-}`
-
+}
+`
 
 ## `cat` command with a path to a file as an argument
 ![Image](cathello.png)
