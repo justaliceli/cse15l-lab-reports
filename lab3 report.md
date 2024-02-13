@@ -42,7 +42,7 @@ static void reverseInPlace(int[] arr) {
 The original version attempts to swap elements, but as it goes through the entire array, it ends up swapping the elements back to their original places. To fix this, we only loop through half of the array and swap the elements at the ith index with those at the `arr. length - i - 1` index.
 
 
-## Part 2
+## Part 2 - grep
 #1a
 ```
 grep -r "terrorism" ./technical/911report/*.txt
