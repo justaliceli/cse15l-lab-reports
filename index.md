@@ -57,11 +57,10 @@ The messages field of the Handler class would be "alice: hiii\n" from the previo
 
 
 ## Part2
-#1
 ![Image](ls1.png)
-#2
+
 ![Image](ls2revise.png)
-#3
+
 ![Image](ls3.png)
 
 
