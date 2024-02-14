@@ -56,12 +56,14 @@ The messages field of the Handler class would be "alice: hiii\n" from the previo
 3. The messages field in the Handler class would change by appending the new message. After the method call with the new request, the field messages would have a new value, which is the previous messages plus the new one, resulting in "alice: hiii\nalice: yeahpa\n"
 
 
-## Part2
+## Part2a
 ![Image](ls1.png)
 ![Image](ls1cont.png)
 
+## Part2b
 ![Image](ls2revise.png)
 
+## Part2c
 ![Image](ls3.png)
 
 
