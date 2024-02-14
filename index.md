@@ -58,6 +58,7 @@ The messages field of the Handler class would be "alice: hiii\n" from the previo
 
 ## Part2
 ![Image](ls1.png)
+![Image](ls1cont.png)
 
 ![Image](ls2revise.png)
 
