@@ -1,6 +1,6 @@
 ## Problem 1a
 The permutation is 14253
-![Image](p1.png)
+![Image](p1.jpg)
 
 ## Problem 2a
 ![Image](p21.png)
