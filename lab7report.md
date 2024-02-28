@@ -9,13 +9,13 @@ This command helped me to log into my ieng machine
 After establishing the key on github, this command allows me to clone the repository I forked using ssh URL.
 
 ## Step 6
-![Image](test.png)
+![Image](test.png) <br>
 **key pressed:** First `cd lab7`, Then `bash test.sh`
 cd lab7 helped me to cd to the lab7 directory, which I will work on later;
 bash test.sh helped me to run the test.sh file (i.e. run the test).
 
 ## Step 7
-![Image](vim.png)
+![Image](vim.png) <br>
 **key pressed:** `vim ListExamples.java`
 This command allows me to open the ListExamples file and edit it.
 ![Image](vim1.png)
