@@ -18,27 +18,27 @@ bash test.sh helped me to run the test.sh file (i.e. run the test).
 ![Image](vim.png) <br>
 **key pressed:** `vim ListExamples.java`
 This command allows me to open the ListExamples file and edit it.
-![Image](vim1.png)
-**key pressed:** <j> continuously until the cursor reaches the line in the picture above;
-Then press <l> 11 times till it reaches 1 for index1;
-Press <x>, which allows me to delete that 1 in index1;
-Press <i>, enter the insert mode.
-Press <2>, add the number2 after `index`, modified `index1` to `index2`.
-![Image](vim2.png)
-Press <esc> to exit the insert mode;
-Press <wq> to save and exit the file;
+![Image](vim1.png) <br>
+**key pressed:** <j> continuously until the cursor reaches the line in the picture above;<br>
+Then press <l> 11 times till it reaches 1 for index1; <br>
+Press <x>, which allows me to delete that 1 in index1;<br>
+Press <i>, enter the insert mode.<br>
+Press <2>, add the number2 after `index`, modified `index1` to `index2`.<br>
+![Image](vim2.png)<br>
+Press <esc> to exit the insert mode;<br>
+Press <wq> to save and exit the file;<br>
 
 ## Step 8
-![Image](vim3.png)
+![Image](vim3.png)<br>
 **key pressed:** `bash test.sh` to run the test again. It now runs successfully.
 
 ## Step 9
-![Image](status.png)
-**key pressed:** `git status` to check the current status of our modified file. It is still unstaged.
-![Image](addcommit.png)
-**key pressed:** `git add` to add the changed files to the staging area;
-`git commit` to commit the changes with a commit message;
-![Image](push.png)
+![Image](status.png)<br>
+**key pressed:** `git status` to check the current status of our modified file. It is still unstaged.<br>
+![Image](addcommit.png)<br>
+**key pressed:** `git add` to add the changed files to the staging area;<br>
+`git commit` to commit the changes with a commit message;<br>
+![Image](push.png)<br>
 **key pressed:** `git push origin main` to push the commit to GitHub
 
 
