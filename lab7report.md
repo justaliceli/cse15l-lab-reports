@@ -19,14 +19,14 @@ bash test.sh helped me to run the test.sh file (i.e. run the test).
 **key pressed:** `vim ListExamples.java`
 This command allows me to open the ListExamples file and edit it.
 ![Image](vim1.png) <br>
-**key pressed:** <j> continuously until the cursor reaches the line in the picture above;<br>
-Then press <l> 11 times till it reaches 1 for index1; <br>
-Press <x>, which allows me to delete that 1 in index1;<br>
-Press <i>, enter the insert mode.<br>
-Press <2>, add the number2 after `index`, modified `index1` to `index2`.<br>
+**key pressed:** `<j>` continuously until the cursor reaches the line in the picture above;<br>
+Then press `<l>` 11 times till it reaches 1 for index1; <br>
+Press `<x>`, which allows me to delete that 1 in index1;<br>
+Press `<i>`, enter the insert mode.<br>
+Press `<2>`, add the number2 after `index`, modified `index1` to `index2`.<br>
 ![Image](vim2.png)<br>
-Press <esc> to exit the insert mode;<br>
-Press <wq> to save and exit the file;<br>
+Press `<esc>` to exit the insert mode;<br>
+Press `<wq>` to save and exit the file;<br>
 
 ## Step 8
 ![Image](vim3.png)<br>
